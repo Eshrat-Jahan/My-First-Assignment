@@ -72,9 +72,7 @@ font-weight: 700;
   #second-section{
     background: linear-gradient(to right ,rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url(/resources/Vectorrr.png);
     margin-top: 150px;
-    border-radius: 10px;
-    border: 5px solid red;
-    
+    border-radius: 10px; 
   }
   .second-inside-part{
     display: flex;
@@ -152,8 +150,59 @@ border: none;
   color: #F00;
 }
 
+/* <!-- coming soon circle image part  --> */
+
+#Fourth-section{
+  display: flex;
+  height: 450px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+  gap: 120px;
+}
+
+.left-text h5{
+  color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.left-text h1{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.left-text p{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+
+.middle-image{
+  border: 10px solid #FF0000;
+  border-radius: 50%;
+  padding: 16px;
+}
 
 
+  
+
+.right-text-image h1{
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.right-text-image p{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0 20px 0;
+  width: 200px;
+}
 
 
 
