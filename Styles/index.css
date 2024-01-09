@@ -206,36 +206,118 @@ font-weight: 400;
   width: 200px;
 }
 
+.holiday-section{
+  margin-top: 200px;
+  text-align: center;
+}
+
+.holiday-section h5{
+  font-size: 30px;
+}
+
+.holiday-section h1{
+  font-size: 80px;
+  margin: 20px 0;
+}
+.holiday-section span{
+  color: #FF0000;
+}
+.holiday-section p{
+  color: #070211;
+}
+
+.image-container{
+  margin-top: 500px;
+  position: relative;
+}
+.img1{
+  position: absolute;
+  top: -220px;
+}
+
+.img1 img{
+  width: 60%;
+}
+
+.img2{
+  position: absolute;
+  right: 0;
+  top: -433px;
+}
+
+.img3{
+  position: absolute;
+  right: 300px;
+  top: -333px;
+}
 
 
+.portfolio-section{
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+
+.portfolio-section h6{
+  font-size: 22px;
+  color: #FF0000;
+}
+.portfolio-section h1{
+  font-size: 50px;
+  margin: 15px 0;
+}
+
+.portfolio-section p{
+  color: #070211;
+}
 
 
+.image-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
 
 
+#news-letter{
+  margin: 200px;
+  text-align: center;
+  background: #FF00000D;
+  border-radius: 20px;
+}
 
+.news-letter-content{
+  padding: 50px 100px;
+}
 
+#news-letter h1{
+  font-size: 35px;
+  margin: 10px 0;
+}
 
+.input-field{
+  margin-top: 20px;
+  width: 80%;
+  position: relative;
+}
+.input-field input{
+  padding: 12px 20px;
+  width: 90%;
+  outline: none;
+  border: none;
+  border-radius:50px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.input-field button{
+  padding: 12px 20px;
+  border-radius: 0 50px 50px 0;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #FF0000;
+  color: white;
+}
 
 
 
