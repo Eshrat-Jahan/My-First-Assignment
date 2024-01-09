@@ -73,6 +73,8 @@ font-weight: 700;
     background: linear-gradient(to right ,rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url(../resources/Vectorrr.png);
     margin-top: 150px;
     border-radius: 10px; 
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .second-inside-part{
     display: flex;
